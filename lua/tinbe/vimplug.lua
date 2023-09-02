@@ -9,6 +9,8 @@ vim.call('plug#begin', '~/.config/nvim/plugged')
   Plug 'mbbill/undotree'
   Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-commentary'
+  Plug 'jiangmiao/auto-pairs'
+  Plug 'sbdchd/neoformat'
 
   -- Themes
   Plug 'jacoborus/tender.vim'

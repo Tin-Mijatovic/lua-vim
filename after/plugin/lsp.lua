@@ -58,9 +58,3 @@ vim.diagnostic.config({
     virtual_text = true
 })
 
--- Automatically format code with Prettier on save
-vim.cmd([[
-  autocmd BufWritePre *.js,*.jsx,*.ts,*.tsx,*.json,*.css,*.scss,*.md !prettier --write --stdin
-]])
-
-

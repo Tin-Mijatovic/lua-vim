@@ -30,8 +30,9 @@ vim.call('plug#begin', '~/.config/nvim/plugged')
 
   --Nerdtree and git
   Plug 'preservim/nerdtree'
-  Plug 'ryanoasis/vim-devicons'
   Plug 'Xuyuanp/nerdtree-git-plugin'
+  Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+  Plug 'ryanoasis/vim-devicons'
 
 
 vim.call('plug#end')

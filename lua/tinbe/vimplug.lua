@@ -4,11 +4,15 @@ vim.call('plug#begin', '~/.config/nvim/plugged')
 
   Plug 'nvim-lua/plenary.nvim'
   Plug ('nvim-telescope/telescope.nvim', { tag = '0.1.2' })
-  Plug 'morhetz/gruvbox'
   Plug ('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate'})
   Plug 'ThePrimeagen/harpoon'
   Plug 'mbbill/undotree'
   Plug 'tpope/vim-fugitive'
+  Plug 'tpope/vim-commentary'
+
+  -- Themes
+  Plug 'jacoborus/tender.vim'
+  Plug 'morhetz/gruvbox'
 
   --LSP Support
   Plug 'neovim/nvim-lspconfig'             -- Required
@@ -20,9 +24,14 @@ vim.call('plug#begin', '~/.config/nvim/plugged')
   Plug 'hrsh7th/cmp-nvim-lsp' -- Required
   Plug 'L3MON4D3/LuaSnip'     -- Required
   Plug ('VonHeikemen/lsp-zero.nvim', { branch = 'v2.x' })
-  
+
+  --Airline
+  Plug 'vim-airline/vim-airline'
+
+  --Nerdtree and git
   Plug 'preservim/nerdtree'
-  Plug 'tiagofumo/vim-nerdtree-automagic'
+  Plug 'ryanoasis/vim-devicons'
+  Plug 'Xuyuanp/nerdtree-git-plugin'
 
 
 vim.call('plug#end')

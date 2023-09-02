@@ -62,3 +62,5 @@ vim.diagnostic.config({
 vim.cmd([[
   autocmd BufWritePre *.js,*.jsx,*.ts,*.tsx,*.json,*.css,*.scss,*.md !prettier --write --stdin
 ]])
+
+

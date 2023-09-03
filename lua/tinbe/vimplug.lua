@@ -11,6 +11,7 @@ vim.call('plug#begin', '~/.config/nvim/plugged')
   Plug 'tpope/vim-commentary'
   Plug 'jiangmiao/auto-pairs'
   Plug 'sbdchd/neoformat'
+  Plug 'christoomey/vim-tmux-navigator'
 
   -- Themes
   Plug 'jacoborus/tender.vim'

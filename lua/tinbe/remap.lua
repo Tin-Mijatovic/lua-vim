@@ -19,3 +19,8 @@ vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
 
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
+-- split pane 
+vim.api.nvim_set_keymap('n', '<leader>\\', ':vsplit<CR><C-w>l', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>]', ':split<CR><C-w>j', { noremap = true, silent = true })
+
+

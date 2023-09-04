@@ -37,5 +37,11 @@ vim.call('plug#begin', '~/.config/nvim/plugged')
   Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
   Plug 'ryanoasis/vim-devicons'
 
+  Plug "NeogitOrg/neogit"
+    Plug "nvim-lua/plenary.nvim"
+    Plug  "nvim-telescope/telescope.nvim"
+    Plug  "sindrets/diffview.nvim"
+    Plug  "ibhagwan/fzf-lua"
+
 
 vim.call('plug#end')

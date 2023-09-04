@@ -19,3 +19,7 @@ vim.g.NERDTreeGitStatusIndicatorMapCustom = {
 
 -- Enable the use of Nerd Fonts with NERDTree
 vim.g.NERDTreeGitStatusUseNerdFonts = 1
+
+-- Map <leader>r to execute NERDTreeFind
+vim.api.nvim_set_keymap('n', '<leader>N', ':NERDTreeFind<CR>', { noremap = true, silent = true })
+
